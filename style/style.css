@@ -22,6 +22,7 @@
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 1.5rem;
     font-weight: 700;
+    padding-left: 10px;
 }
 
 .nav-icon {
@@ -33,6 +34,7 @@
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 1rem;
     font-weight: 600;
+    padding-right: 10px;
 }
 
 .nav-icon a {
@@ -43,13 +45,17 @@
 /* header banner section style  */
 
 .header-banner {
+    border: 1px solid ;
     margin: 0 auto;
-    max-width: 1300px;
+    width: 1300px;
+    height: 600px;
     display: flex;
     justify-content: space-between;
 }
 
 .banner-text {
+    padding: 10px;
+    border: 1px solid gray;
     /* display: flex;
     flex-direction: column; */
     display: block;
@@ -91,4 +97,24 @@ transition: transform(1s);
 }
 .btn-primary:hover {
     transform: translateX(10px) scale(1.2);
+}
+
+/* banner image style */
+.banner-img {
+    max-width: 25rem;
+    width: 100%;
+}
+.box {
+    margin: 10px;
+    padding: 10px;
+position: relative;
+}
+.camera{
+    top: 100px;
+    left: -200px;
+    z-index: 1;
+}
+.ring {
+    top: -400px;
+    left: -200px;
 }

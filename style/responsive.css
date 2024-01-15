@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+    .nav-bar{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    .nav-text{
+        text-align: center;
+    }
+    .nav-icon{
+        padding: 10px;
+    }
+}

@@ -30,7 +30,6 @@
     }
     .banner-text {
         padding: 10px;
-        border: 1px solid gray;
         /* display: flex;
         flex-direction: column; */
         display: block;
@@ -63,5 +62,18 @@
     .ring {
         top: -200px;
         left: 30px;
+    }
+}
+
+/* E commarce mobile style */
+
+@media screen and (max-width: 576px) {
+    .e-com-link {
+        width: 300px;
+        height: 100%;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: repeat(3; 2fr);
+                gap: 50px;
     }
 }
